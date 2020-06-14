@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/cxsw/web/servlet/car=UTF-8
+encoding//src/com/cxsw/web/servlet/employee/EmployeeByIdServlet.java=UTF-8
+encoding//src/com/cxsw/web/servlet/employee/EmployeeUpdateServlet.java=UTF-8
+encoding//src/com/cxsw/web/servlet/normal/UserByIdServlet.java=UTF-8
+encoding//src/com/cxsw/web/util/PageBean.java=UTF-8
+encoding//src/com/cxsw/web/util/fileuploadUtil.java=UTF-8
+encoding/<project>=UTF-8
+encoding/src=UTF-8
