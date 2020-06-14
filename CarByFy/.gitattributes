@@ -1,0 +1,5 @@
+*.html linguist-language=java
+*.html linguist-language=JavaScript
+*.html linguist-language=Servlet
+*.html linguist-language=jsp
+
