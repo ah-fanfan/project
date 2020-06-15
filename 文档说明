@@ -1,0 +1,7 @@
+project汽车销售网站系统，包含用户，销售，管理员界面功能的操作
+1.数据库（MySQl）  数据库名 carByfy   root   root
+管理员信息表（admin）、地址县（areas）、汽车信息表(car_info)、汽车类型信息表(carkind)、
+汽车品牌信息表(carmark)、汽车订单信息表(carorder)、地址市(cities)、员工信息表(employee)、
+地址省(provinces)、经销商信息表(shop)、预约试驾信息表（tets）、用户信息表（user）
+2.开发环境   eclipseEE + tomcat8.5
+3.jsp页面  /beanclass
