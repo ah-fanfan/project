@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="dsms1.com..Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="dsms1.com..Perspective"
+            id="DSMS1.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="dsms1.view.AdminView"
+            id="dsms1.view.AdminView"
+            name="管理员页面">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="dsms1.editor.StudentAddEditor"
+            id="dsms1.editor.StudentAddEditor"
+            name="学员信息添加">
+      </editor>
+   </extension>
+
+</plugin>
