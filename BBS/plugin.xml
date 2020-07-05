@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="bbs.core.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="bbs.core.Perspective"
+            id="BBS.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="bbs.view.ManagerView"
+            id="bbs.view.ManagerView"
+            name="管理员界面">
+      </view>
+      <view
+            class="bbs.view.UserView"
+            id="bbs.view.UserView"
+            name="用户">
+      </view>
+      <view
+            class="bbs.view.ManagerplusView"
+            id="bbs.view.ManagerplusView"
+            name="超级管理员">
+      </view>
+      <view
+            class="bbs.Editor.TourModeEditor"
+            id="bbs.Editor.TourModeEditor"
+            name="游客模式">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="bbs.Editor.ManagerEditor"
+            id="bbs.Editor.ManagerEditor"
+            name="管理员">
+      </editor>
+      <editor
+            class="bbs.Editor.M_inforManagerment"
+            id="bbs.Editor.M_inforManagerment"
+            name="管理员信息管理">
+      </editor>
+      <editor
+            class="bbs.Editor.VipUserManagerment"
+            id="bbs.Editor.VipUserManagerment"
+            name="会员信息管理">
+      </editor>
+      <editor
+            class="bbs.Editor.UserManagerment"
+            id="bbs.Editor.UserManagerment"
+            name="网友信息管理">
+      </editor>
+   </extension>
+
+</plugin>
